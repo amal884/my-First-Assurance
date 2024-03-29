@@ -7446,6 +7446,15 @@ p.wow-fadeIn {
   font-size: 18px;
   line-height: 31px;
 }
+span.wow-fadeIin {
+  /* New styles for your p element */
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(101, 101, 101);
+  font-size: 18px;
+  line-height: 31px;
+}
 
 span.wow-fadeIn {
   /* New styles for your p element */
