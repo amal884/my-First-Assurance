@@ -1,9 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="fr" class="no-js">
 
-
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8" />
     <title>My First Assurance - Assurances Temporaires</title>
@@ -19,23 +16,26 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/plugin.min.css" rel="stylesheet">
     <link href="font-awesome/all.min.css" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap"
         rel="stylesheet">
     <!-- template-style-->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/darkmode.css" rel="stylesheet">
-
-
     <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
     <script type="text/javascript">
       (function(){
         emailjs.init("khPk3bRzNY9skzkkT"); // Replace with your User ID from EmailJS
       })();
     </script>
-
-    
+    <!-- Custom CSS for IFrame -->
+    <style>
+        .custom-iframe {
+            width: 530px;
+            height: 1000px;
+            border: none;
+        }
+    </style>
 </head>
 
 <body class="glassmorphism">
@@ -62,11 +62,6 @@
                         <li>
                             <a href="index.html" class="menu-links" style="font-family: 'Nunito Sans', sans-serif; font-style: normal; font-weight: 700; color: rgb(0, 102, 173); font-size: 14px; line-height: normal;">ACCUEIL</a>
                         </li>
-                        <!--
-                        <li>
-                            <a href="/assurances-temporaires" class="menu-links">ASSURANCES TEMPORAIRES</a>
-                        </li>
-                        -->
                         <li class="rpdropdown">
                             <a href="#" class="menu-links" style=" color: rgb(0, 102, 173); ">NOS ASSURANCES</a>
                             <div class="nx-dropdown menu-dorpdown">
@@ -99,7 +94,7 @@
                             <a href="#" class="menu-links right-bddr">&nbsp;</a>
                             <!--menu right border-->
                         <li class="contact-show">
-                            <a href="#" ><i class="fas fa-phone-alt"></i></a>
+                            <a href="#"><i class="fas fa-phone-alt"></i></a>
                             <div class="contact-inquiry">
                                 <div class="contact-info-">
                                     <div class="contct-heading">My First Assurance Contacts</div>
@@ -130,11 +125,6 @@
                     <li>
                         <a href="index.html">ACCUEIL</a>
                     </li>
-                    <!--
-                    <li>
-                        <a href="/assurances-temporaires">ASSURANCES TEMPORAIRES</a>
-                    </li>
-                    -->
                     <li>
                         <a href="#">NOS ASSURANCES</a>
                         <ul>
@@ -167,229 +157,213 @@
                             </svg>
                         </a>
                     </li>
-                   
                 </ul>
             </nav>
         </div>
     </header>
     <!--End Header -->
-<!--Breadcrumb Area-->
-<section class="breadcrumb-areav2" data-background="images/banner/6.jpg">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-7">
-                <div class="bread-titlev2">
-                    <h1 class="wow-fadeInUp" data-wow-delay=".2s">Besoin d'une assurance
-                        temporaire ?</h1>
-                    <p class="mt20 wow fadeInUp" data-wow-delay=".4s">Bienvenue chez My First Assurance</p>
-                    <a href="#assur-tempo" class="btn-main bg-btn2 lnk mt20 wow zoomInDown"
-                        data-wow-delay=".6s">J'assure ma
-                        voiture temporairement <i class="fas fa-chevron-right fa-icon"></i><span
-                            class="circle"></span></a>
+    <!--Breadcrumb Area-->
+    <section class="breadcrumb-areav2" data-background="images/banner/6.jpg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="bread-titlev2">
+                        <h1 class="wow-fadeInUp" data-wow-delay=".2s">Besoin d'une assurance temporaire ?</h1>
+                        <p class="mt20 wow fadeInUp" data-wow-delay=".4s">Bienvenue chez My First Assurance</p>
+                        <a href="#assur-tempo" class="btn-main bg-btn2 lnk mt20 wow zoomInDown"
+                            data-wow-delay=".6s">J'assure ma voiture temporairement <i class="fas fa-chevron-right fa-icon"></i><span
+                                class="circle"></span></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--End Hero-->
-<!--Start About-->
-<section class="service pad-tb">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="image-block upset bg-shape wow fadeIn">
-                    <img src="images/about/assurances-temporaires.jpg" alt="image" class="img-fluid" />
+    </section>
+    <!--End Hero-->
+    <!--Start About-->
+    <section class="service pad-tb">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="image-block upset bg-shape wow fadeIn">
+                        <img src="images/about/assurances-temporaires.jpg" alt="image" class="img-fluid" />
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-8 block-1">
-                <div class="common-heading text-l pl25">
-                    <span>My First Assurance</span>
-                    <h3 class="mycustom-style">Assurances Temporaires</h3>
-                    <p>Nos assurances temporaires vous permettent d’assurer vos véhicules en tout simplicité.</p>
-                    <p>Ce type d’assurance est fait spécialement pour :<br><br>
-                    <ul>
-                        <li>→ Un usage personnel.</li>
-                        <li>→ Les véhicules trop puissants et difficiles à assurer.</li>
-                        <li>→ Pour une demande de carte grise.</li>
-                        <li>→ Pas d’antécédents d’assurances.</li>
-                        <li>→ Véhicules immobilisés par les forces de l’ordre.</li>
-                        <li>→ Véhicules en fourrière.</li>
-                        <li>→ Achat de véhicule.</li>
-                    </ul>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--End About-->
-<!--Start Service-->
-<section class="service-block bg-gradient6 pad-tb">
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="common-heading ptag">
-                    <span>My First Assurance</span>
-                    <h2 class="mycustom-style ">OBTENEZ VOTRE DEVIS RAPIDEMENT</h2>
+                <div class="col-lg-8 block-1">
+                    <div class="common-heading text-l pl25">
+                        <span>My First Assurance</span>
+                        <h3 class="mycustom-style">Assurances Temporaires</h3>
+                        <p>Nos assurances temporaires vous permettent d’assurer vos véhicules en tout simplicité.</p>
+                        <p>Ce type d’assurance est fait spécialement pour :<br><br>
+                        <ul>
+                            <li>→ Un usage personnel.</li>
+                            <li>→ Les véhicules trop puissants et difficiles à assurer.</li>
+                            <li>→ Pour une demande de carte grise.</li>
+                            <li>→ Pas d’antécédents d’assurances.</li>
+                            <li>→ Véhicules immobilisés par les forces de l’ordre.</li>
+                            <li>→ Véhicules en fourrière.</li>
+                            <li>→ Achat de véhicule.</li>
+                        </ul>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="form-block">
-
-            <form id="myForm"  method="POST" enctype="multipart/form-data">
-
-                <input name="token" type="hidden" value="b4f70cec7a1b64c9386466b3c3a396e9"><input name="form-type" type="hidden" value="auto">
-                <div class="row">
-
-                    <h6 class="col-12 my-4">VOUS :</h6>
-                    <input name="service" type="hidden" value="Assurance Temporaire">
-                    <div class="form-group col-sm-6 col-md-4">
-                        <label>Nom :</label>
-                        <input name="nom" type="text" placeholder="Nom" required>
+    </section>
+    <!--End About-->
+    <!--Start Service-->
+    <!-- <section class="service-block bg-gradient6 pad-tb">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="common-heading ptag">
+                        <span>My First Assurance</span>
+                        <h2 class="mycustom-style ">OBTENEZ VOTRE DEVIS RAPIDEMENT</h2>
                     </div>
-                    <div class="form-group col-sm-6 col-md-4">
-                        <label>Prénom :</label>
-                        <input name="prenom" type="text" placeholder="Prénom" required>
-                    </div>
-
-                  
-
-                    <div class="form-group col-sm-6 col-md-4">
-                        <label>Ville :</label>
-                        <input name="ville" type="text" placeholder="Ville">
-                    </div>
-                    <div class="form-group col-sm-6 col-md-4">
-                        <label>Email :</label>
-                        <input name="email" type="email" placeholder="Email" required>
-                    </div>
-                    <div class="form-group col-sm-6 col-md-4">
-                        <label>Téléphone :</label>
-                        <input name="tel" type="tel" placeholder="Téléphone">
-                    </div>
-                    <div class="form-group col-sm-6 col-md-4">
-                        <label>Mon agence :</label>
-                        <select name="agence" class="w-100" required>
-                            <option value="" selected="">Mon agence</option>
-                            <option value="Valenciennes">Valenciennes</option>
-                        </select>
-                    </div>
-
-                    <div class="clearfix"></div>
-
-                    <div class="-cta-btn mt70">
-                        <div class="free-cta-title v-center">
-                            <button type="submit" class="btn-main bg-btn2 lnk">Obtenir mon devis<i
-                                    class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></button>
+                </div>
+            </div>
+            <div class="form-block">
+                <form id="myForm" method="POST" enctype="multipart/form-data">
+                    <input name="token" type="hidden" value="b4f70cec7a1b64c9386466b3c3a396e9">
+                    <input name="form-type" type="hidden" value="auto">
+                    <div class="row">
+                        <h6 class="col-12 my-4">VOUS :</h6>
+                        <input name="service" type="hidden" value="Assurance Temporaire">
+                        <div class="form-group col-sm-6 col-md-4">
+                            <label>Nom :</label>
+                            <input name="nom" type="text" placeholder="Nom" required>
+                        </div>
+                        <div class="form-group col-sm-6 col-md-4">
+                            <label>Prénom :</label>
+                            <input name="prenom" type="text" placeholder="Prénom" required> -->
+                        <!-- </div>
+                        <div class="form-group col-sm-6 col-md-4">
+                            <label>Ville :</label>
+                            <input name="ville" type="text" placeholder="Ville">
+                        </div>
+                        <div class="form-group col-sm-6 col-md-4">
+                            <label>Email :</label>
+                            <input name="email" type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group col-sm-6 col-md-4">
+                            <label>Téléphone :</label>
+                            <input name="tel" type="tel" placeholder="Téléphone">
+                        </div>
+                        <div class="form-group col-sm-6 col-md-4">
+                            <label>Mon agence :</label>
+                            <select name="agence" class="w-100" required>
+                                <option value="" selected="">Mon agence</option>
+                                <option value="Valenciennes">Valenciennes</option>
+                            </select>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="-cta-btn mt70">
+                            <div class="free-cta-title v-center">
+                                <button type="submit" class="btn-main bg-btn2 lnk">Obtenir mon devis<i
+                                        class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></button>
+                            </div>
                         </div>
                     </div>
-
-                </div>
-            </form>
-        </div>
-    </div>
-</section>
-<!--End Service-->
-<!--Start Process-->
-<section id="assur-tempo" class="service-block pad-tb light-dark">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="common-heading ptag">
-                    <span>My First Assurance</span>
-                    <h2 class="mycustom-style">J’ASSURE MA VOITURE TEMPORAIREMENT</h2>
-                   
-                </div>
+                </form>
             </div>
         </div>
-    </div>
-</section>
-<!--End Process-->
-
-<!--Start Footer-->
-<footer class="footerdez dark-footer pt50 pb80">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-12 pt10">
-                <div class="footerdez-a">
-                    <div class="logo-pre"><img src="images/logo.png" alt="Logo" class="img-fluid" /></div>
-                    <h6 class="text-white">VOTRE ASSUREUR CONSEIL</h6>
-                    <p class="mt10">est à votre écoute 24h/7j et en agence du lundi au vendredi : 09h30 → 12h30 & 14h00
-                        → 18h00<br>
-                        le samedi : 10h30 → 14h00</p>
-                    <div class="contactinfo mt30">
-                        <a href="mailto:jamel.boumagoute@myfirstassurance.com">jamel.boumagoute@myfirstassurance.com</a>
-                        <a href="tel:0629844527">06 29 84 45 27</a>
-                        <a href="tel:0956027715">09 56 02 77 15</a>
-
+    </section> -->
+    <!--End Service-->
+    <!--Start Process-->
+    <!-- <section id="assur-tempo" class="service-block pad-tb light-dark">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="common-heading ptag">
+                        <span>My First Assurance</span>
+                        <h2 class="mycustom-style">J’ASSURE MA VOITURE TEMPORAIREMENT</h2>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-12 pt40">
-
-            </div>
-            <div class="col-md-3 col-sm-12 pt40">
-                <div class="fttlnks">
-                    <h5>My First Assurance</h5>
-                    <ul class="footer-address-list link-hover">
-                      
-
-
-
-                        <li><a href="javascript:void(0)">Forme : SASU</a></li>
-<li><a href="javascript:void(0)">Capital : 1 000,00 Euros</a></li>
-<li><a href="javascript:void(0)">Siret : 98472342900010</a></li>
-<li><a href="javascript:void(0)">Date : 23/02/2024 (Date d'immatriculation)</a></li>
-<li><a href="javascript:void(0)">Siège : 68 bis rue de Lille 59300 Valenciennes</a></li>
-<li><a href="javascript:void(0)">N° Orias : 24002191</a></li>
-
-                    </ul>
+        </div>
+    </section>
+    End Process -->
+    <!-- IFrame Section for Assurance Temporaire -->
+    <section class="service-block bg-gradient6 pad-tb">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="common-heading ptag">
+                        <span>My First Assurance</span>
+                        <h2 class="mycustom-style">J’ASSURE MA VOITURE TEMPORAIREMENT</h2>
+                    </div>
+                </div>
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <iframe class="custom-iframe" src="https://www.jlassure.com/sousfiche/assure_tempo_rapide_mb.php?cat=&tip=09.70.71.36.90&id=1578&cd=28BOU511&adrsite=https://myfirstassurance.com/">Votre navigateur ne supporte pas les IFrames.</iframe>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-12 pt40">
-              
+        </div>
+    </section>
+    
+    <!--End IFrame Section-->
+    <!--Start Footer-->
+    <footer class="footerdez dark-footer pt50 pb80">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12 pt10">
+                    <div class="footerdez-a">
+                        <div class="logo-pre"><img src="images/logo.png" alt="Logo" class="img-fluid" /></div>
+                        <h6 class="text-white">VOTRE ASSUREUR CONSEIL</h6>
+                        <p class="mt10">est à votre écoute 24h/7j et en agence du lundi au vendredi : 09h30 → 12h30 & 14h00
+                            → 18h00<br>
+                            le samedi : 10h30 → 14h00</p>
+                        <div class="contactinfo mt30">
+                            <a href="mailto:myfirstassurance@outlook.fr">myfirstassurance@outlook.fr</a>
+                            <a href="tel:0629844527">06 29 84 45 27</a>
+                            <a href="tel:0956027715">09 56 02 77 15</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 pt40">
+                </div>
+                <div class="col-md-3 col-sm-12 pt40">
+                    <div class="fttlnks">
+                        <h5>My First Assurance</h5>
+                        <ul class="footer-address-list link-hover">
+                            <li><a href="javascript:void(0)">Forme : SASU</a></li>
+                            <li><a href="javascript:void(0)">Capital : 1 000,00 Euros</a></li>
+                            <li><a href="javascript:void(0)">Siret : 98472342900010</a></li>
+                            <li><a href="javascript:void(0)">Date : 23/02/2024 (Date d'immatriculation)</a></li>
+                            <li><a href="javascript:void(0)">Siège : 68 bis rue de Lille 59300 Valenciennes</a></li>
+                            <li><a href="javascript:void(0)">N° Orias : 24002191</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 pt40">
+                </div>
+            </div>
+            <div class="row fttlnks flexend mt-5">
+                <div class="col-12 text-center">
+                </div>
             </div>
         </div>
-        <div class="row fttlnks flexend mt-5">
-            <div class="col-12 text-center">
-
-            </div>
-        </div>
-    </div>
-</footer>
-<!--End Footer-->
-
-<!-- js placed at the end of the document so the pages load faster -->
-<script src="js/vendor/modernizr-3.5.0.min.js"></script>
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/plugin.min.js"></script>
-<script src="js/preloader.js"></script>
-<!--common script file-->
-<script src="js/main.js"></script>
-
-
-
-<script type="text/javascript">
-    window.onload = function() {
-      document.getElementById('myForm').addEventListener('submit', function(event) {
-        event.preventDefault();
-        // Change 'your_service_id' and 'your_template_id' with actual values from EmailJS
-        emailjs.sendForm('service_g30phmd', 'template_4vr4jol', this)
-          .then(function() {
-            window.location.href = 'thankyou.html';
-            // Optionally, you can add an alert for the user or redirect them
-            // alert('Your form has been sent!');
-          }, function(error) {
-            console.log('FAILED...', error);
+    </footer>
+    <!--End Footer-->
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/plugin.min.js"></script>
+    <script src="js/preloader.js"></script>
+    <!--common script file-->
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+          document.getElementById('myForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // Change 'your_service_id' and 'your_template_id' with actual values from EmailJS
+            emailjs.sendForm('service_g30phmd', 'template_4vr4jol', this)
+              .then(function() {
+                window.location.href = 'thankyou.html';
+              }, function(error) {
+                console.log('FAILED...', error);
+              });
           });
-      });
-    }
-  </script>
-
-
+        }
+    </script>
 </body>
-
-
 </html>
